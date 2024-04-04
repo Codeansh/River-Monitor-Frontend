@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +22,8 @@ export default function RootLayout({
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script type="text/javascript" src="/static/script.js"></script>
+        <Script src="https://code.jquery.com/jquery-3.6.4.min.js"></Script>
+        <Script type="text/javascript" src="/static/script.js"></Script>
 
       </head>
 
