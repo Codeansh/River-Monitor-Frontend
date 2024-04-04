@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+export default function varanasi() {
   return (
       <><div className="no-scrollbar river">
           <div className="p-4 text-center w-full text-5xl font-semibold text-teal-900 font-serif">
