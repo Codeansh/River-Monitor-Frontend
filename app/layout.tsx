@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +30,7 @@ export default function RootLayout({
         <nav className="bg-green-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
           <div className="container flex flex-wrap items-center justify-between mx-auto">
             <a href="{{ .Site.Params.homepage }}/" className="flex items-center">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoSr9d2Dbs4sIpO2Ti01R1B5ocSD6KXjlyHAeXGQXHzA&s"
+              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoSr9d2Dbs4sIpO2Ti01R1B5ocSD6KXjlyHAeXGQXHzA&s"
                 className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
