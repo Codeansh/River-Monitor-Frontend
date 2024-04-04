@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* <!-- Weather Card 1 --> */}
           {/* onclick="location.href='http://localhost:8000/ganga_haridwar';"  */}
-          <div style={{"cursor":"pointer"}}
+          <div onClick={() => { window.location.href = 'river/ganga/haridwar'; }} style={{"cursor":"pointer"}}
             className="bg-blue-500 p-6 rounded-lg shadow-md text-white weather-card transition-transform transform hover:scale-105 group">
             <h3
               className="text-2xl text-center font-semibold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -38,8 +39,8 @@ export default function Home() {
           </div>
 
           {/* <!-- Weather Card 2 --> */}
-          {/* onclick="location.href='http://localhost:8000/saryu_ayodhya';" */}
-          <div style={{ "cursor": "pointer" }}
+  
+          <div onClick={() => { window.location.href = 'river/saryu/ayodhya'; }} style={{ "cursor": "pointer" }}
             className="bg-green-500 p-6 rounded-lg shadow-md text-white weather-card transition-transform transform hover:scale-105 group">
             <h3
               className="text-2xl text-center font-semibold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -54,7 +55,7 @@ export default function Home() {
 
           {/* <!-- Weather Card 3 --> */}
           {/* onclick="location.href='http://localhost:8000/ganga_varanasi';" */}
-          <div  style={{ "cursor": "pointer" }}
+          <div onClick={() => { window.location.href = 'river/ganga/varanasi'; }} style={{ "cursor": "pointer" }}
             className="bg-red-500 p-6 rounded-lg shadow-md text-white weather-card transition-transform transform hover:scale-105 group">
             <h3
               className="text-2xl text-center font-semibold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

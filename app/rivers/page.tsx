@@ -11,7 +11,7 @@ export default function rivers() {
               <div className="flex flex-wrap -mx-4">
 
                   {/* Card 1 */}
-                  <div onClick={() => { window.location.href = 'http://localhost:8000/ganga_haridwar'; }} style={{ cursor: 'pointer' }} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 px-4 mb-8 ">
+                  <div onClick={() => { window.location.href = 'river/ganga/haridwar'; }} style={{ cursor: 'pointer' }} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 px-4 mb-8 ">
                       <div className="card-container">
                           <div className="max-w-md mx-auto overflow-hidden shadow-lg rounded-lg border border-gray-400 card">
                               <img className="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1624807136278-e2973be118ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwcml2ZXJ8ZW58MHx8MHx8fDA%3D" alt="River Image" />
