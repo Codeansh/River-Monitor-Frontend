@@ -103,7 +103,7 @@ export default function rivers() {
                               <img className="w-full h-48 object-cover" src="https://images.pexels.com/photos/12112985/pexels-photo-12112985.jpeg?cs=srgb&dl=pexels-ravi-jha-12112985.jpg&fm=jpg" alt="River Image"/>
                                   <div className="p-4">
                                       <h2 className="text-xl font-semibold mb-2">Ganga River (Varanasi)</h2>
-                                      <p className="text-gray-700">The Ganges flows gracefully through Varanasi, enriching the city's spiritual essence and cultural heritage.</p>
+                                      <p className="text-gray-700">The Ganges flows gracefully through Varanasi, enriching the  spiritual essence and cultural heritage of the city.</p>
                                   </div>
                           </div>
                       </div>
