@@ -12,7 +12,7 @@ export default function ayodhya() {
                 <div  className="p-4 mt-14 text-center w-full text-5xl font-bold rounded-lg text-teal-900">
                     <h1> Saryu River(Ayodhya) </h1>
                     <p className='text-lg mt-12 px-20 text-gray-700 font-normal'>
-                        The Saryu River in Ayodhya, revered as Lord Rama's birthplace, is a sacred site drawing pilgrims for its spiritual significance and serene setting. It serves as a historical backdrop for rituals and festivals, sustaining a diverse ecosystem and embodying a harmonious blend of spirituality, heritage, and natural beauty.
+                        The Saryu River in Ayodhya, revered as Lord Ramas birthplace, is a sacred site drawing pilgrims for its spiritual significance and serene setting. It serves as a historical backdrop for rituals and festivals, sustaining a diverse ecosystem and embodying a harmonious blend of spirituality, heritage, and natural beauty.
                     </p>
                 </div>
 
