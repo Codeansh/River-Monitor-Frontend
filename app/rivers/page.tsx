@@ -4,7 +4,7 @@ import React from 'react'
 export default function rivers() {
   return (
       <>
-          <div className="container p-8 mx-auto overflow-hidden shadow-lg rounded-lg bg-blue-100 w-full mb-5">
+          <div className="container mt-12 p-8 mx-auto overflow-hidden shadow-lg rounded-lg bg-blue-100 w-full mb-5">
               <h1 className="text-4xl text-center font-bold font-serif text-black italic mb-10">Explore Our Holy Rivers</h1>
 
               {/* River Cards Section */}

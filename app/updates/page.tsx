@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function updates() {
     return (
-        <div className="flex justify-center items-start h-screen w-full"> 
+        <div className="flex mt-12 justify-center items-start h-full w-full"> 
       <form id="inputForm" className="w-2/3 mt-16">
           <div className="header">
               <div className="header__grid">

@@ -6,10 +6,10 @@ export default function Home() {
     <div className="no-scrollbar">
 
       {/* <!-- Hero Section --> */}
-      <header className="np-scrollbar bg-cover bg-center h-96 flex items-center text-white relative"
+      <header className="np-scrollbar mt-[3.5rem] bg-cover bg-center h-96 flex items-center text-white relative"
         style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1589754749467-6df95556396f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FuZ2ElMjByaXZlcnxlbnwwfHwwfHx8MA%3D%3D)' }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container mx-auto text-center relative z-10 ">
+        <div className="container mx-auto text-center relative">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
             River Monitoring Network
           </h1>
