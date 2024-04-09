@@ -1,5 +1,5 @@
 import React from 'react'
-
+import HotelCard from '../../../../components/HotelCard'
 export default function haridwar() {
   return (
       <>
@@ -15,12 +15,12 @@ export default function haridwar() {
                   </p>
               </div>
 
-              <div className="pt-12 flex justify-around items-center">
+              <div className="pt-4 flex justify-around items-center">
                   <div>
                       <div className="p-4 mt-4 text-center w-full text-2xl font-semibold text-black">
                           <h1 className='font-bold'> Air Weather </h1>
                           <div className="p-8 w-full text-lg ">
-                              <div className="p-8 flex flex-col font-semibold text-white justify-center items-center space-y-4">
+                              <div className="p-8 flex flex-col  text-black text-xl justify-center items-center space-y-4">
                                   <span> Air Quality Index(AQI): 203 </span>
                                   <span> Temprature: 40° C</span>
                                   <span> Humidity: 45% </span>
@@ -33,7 +33,7 @@ export default function haridwar() {
                       <div className="p-4 text-center w-full text-2xl  font-semibold text-black">
                           <h1 className='font-bold'> River Water Status </h1>
                           <div className="p-8 w-full text-lg  ">
-                              <div className="p-8 flex flex-col font-semibold text-white justify-center items-center space-y-4">
+                              <div className="p-8 flex flex-col  text-black text-xl  justify-center items-center space-y-4">
                                   <span>Ph Value: 8</span>
                                   <span>Temprature: 40° C</span>
                                   <span>Turbidity: 0.2 NTU</span>
@@ -47,16 +47,16 @@ export default function haridwar() {
 
   
           <div className="mt-8 p-8 pt-0 text-center">
-              <h2 className="text-3xl text-teal-900 font-semibold mb-4">Visit Now</h2>
+              <h2 className="text-3xl text-teal-900 font-semibold mb-4">How To Reach</h2>
               <div className="mt-12 flex justify-around">
                   {/* Bus Booking */}
-                  <a href="https://www.redbus.in/" className="px-4 py-2 border border-teal-900 text-teal-900 rounded hover:bg-teal-900 hover:text-white transition duration-300 ease-in-out">Bus</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.redbus.in/" className="px-4 py-2 border border-teal-900 text-teal-900 rounded hover:bg-teal-900 hover:text-white transition duration-300 ease-in-out">Bus</a>
 
                   {/* Train Booking */}
-                  <a href="https://www.irctc.co.in/nget/train-search" className="px-4 py-2 border border-teal-900 text-teal-900 rounded hover:bg-teal-900 hover:text-white transition duration-300 ease-in-out">Train</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.irctc.co.in/nget/train-search" className="px-4 py-2 border border-teal-900 text-teal-900 rounded hover:bg-teal-900 hover:text-white transition duration-300 ease-in-out">Train</a>
 
                   {/* Flight Booking */}
-                  <a href="https://www.olacabs.com/" className="px-4 py-2 border border-teal-900 text-teal-900 rounded hover:bg-teal-900 hover:text-white transition duration-300 ease-in-out">Cab</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.olacabs.com/" className="px-4 py-2 border border-teal-900 text-teal-900 rounded hover:bg-teal-900 hover:text-white transition duration-300 ease-in-out">Cab</a>
               </div>
           </div>
 
@@ -75,7 +75,7 @@ export default function haridwar() {
                       <h3 className="text-xl text-black font-semibold mb-2">Har Ki Pauri</h3>
                       <p className="text-gray-700 mb-4">
                           A sacred ghat where the Ganges leaves the mountains and enters the plains, hosting the evening Ganga Aarti.  </p>
-                      <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/P5CduqHkxhEZqxQZA" className="text-blue-500 hover:underline">Show On Map</a>
                   </div>
 
                   {/* Card 2: Gaumukh Glacier */}
@@ -86,7 +86,7 @@ export default function haridwar() {
                       <h3 className="text-xl text-black font-semibold mb-2">Mansa Devi Temple</h3>
                       <p className="text-gray-700 mb-4">
                            Situated atop Bilwa Parvat, this temple dedicated to Goddess Mansa Devi offers panoramic views of Haridwar. </p>
-                      <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/e1jpmwBHXA5xjUVt6" className="text-blue-500 hover:underline">Show On Map</a>
                   </div>
 
                   {/* Card 3: Tapovan */}
@@ -97,7 +97,7 @@ export default function haridwar() {
                       <h3 className="text-xl text-black font-semibold mb-2"> Chandi Devi Temple</h3>
                       <p className="text-gray-700 mb-4">
                        Located atop Neel Parvat, this temple dedicated to Goddess Chandi offers a scenic trek or a cable car ride.    </p>
-                      <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/7MdSM5mPqP7oi1B1A" className="text-blue-500 hover:underline">Show On Map</a>
                   </div>
 
                   <div className="border border-black rounded-lg p-4">
@@ -107,7 +107,7 @@ export default function haridwar() {
                       <h3 className="text-xl text-black font-semibold mb-2">Maya Devi Temple</h3>
                       <p className="text-gray-700 mb-4">
                            One of the oldest temples in Haridwar, dedicated to Goddess Maya Devi, and a significant pilgrimage site.</p>
-                      <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/VRoYXYDX22GqQBbHA" className="text-blue-500 hover:underline">Show On Map</a>
                   </div>
 
                   <div className="border border-black rounded-lg p-4">
@@ -117,7 +117,7 @@ export default function haridwar() {
                       <h3 className="text-xl text-black font-semibold mb-2">Rajaji National Park</h3>
                       <p className="text-gray-700 mb-4">
                          Located near Haridwar, this national park offers opportunities for wildlife safari and nature exploration.  </p>
-                      <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/M8xeVM2uAPYAFYjk8" className="text-blue-500 hover:underline">Show On Map</a>
                   </div>
 
                   <div className="border border-black rounded-lg p-4">
@@ -127,7 +127,7 @@ export default function haridwar() {
                       <h3 className="text-xl text-black font-semibold mb-2"> Shanti Kunj</h3>
                       <p className="text-gray-700 mb-4">
                       A tranquil ashram and spiritual center known for its yoga and meditation teachings, promoting peace and spiritual growth.  </p>
-                      <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/uLuSDyt88eM2Mx617f" className="text-blue-500 hover:underline">Show On Map</a>
                   </div>
                   {/* Add more cards for other locations */}
               </div>
@@ -141,33 +141,27 @@ export default function haridwar() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
                   {/* Card 1: Hotel 1 */}
-                  <div className="border border-black rounded-lg p-4">
-                      <div className="flex justify-center mb-4">
-                          <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/502052458.jpg?k=4dafda2f4be9ac9188f2ee1f642f9614af3100f38315eff8bbece1787e2eb620&o=&hp=1" alt="Hotel 1" className="w-full h-60 mb-4 object-cover rounded-lg" />
-                      </div>
-                      <h3 className="text-xl font-semibold text-black mb-2">Ganga Lahari</h3>
-                      <p className="text-gray-700 mb-2">Gau Ghat Har ki Pauri, 226443 Haridwār</p>
-                      <a href="https://www.booking.com/hotel/in/ganga-lahri.en-gb.html?aid=311984&label=ganga-lahri-PfuhjC96iKDMDW7JT4MyTgS266319318702%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-35612166781%3Alp9300710%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXORK0YJiVoOxcWODxYDaAA&sid=70ee43153ae4fc9345999e4405dcf315&dest_id=-2097190;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1712644773;srpvid=b2492db72e700193;type=total;ucfs=1&#hotelTmpl" className="text-blue-500 h-60 hover:underline">Book Now</a>
-                  </div>
-
+                
+                  <HotelCard
+                      name='Ganga Lahari'
+                      address='Gau Ghat Har ki Pauri, 226443 Haridwār'
+                      href='https://www.booking.com/hotel/in/ganga-lahri.en-gb.html?aid=311984&label=ganga-lahri-PfuhjC96iKDMDW7JT4MyTgS266319318702%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-35612166781%3Alp9300710%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YXORK0YJiVoOxcWODxYDaAA&sid=70ee43153ae4fc9345999e4405dcf315&dest_id=-2097190;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1712644773;srpvid=b2492db72e700193;type=total;ucfs=1&#hotelTmpl'
+                      src='https://cf.bstatic.com/xdata/images/hotel/max1024x768/502052458.jpg?k=4dafda2f4be9ac9188f2ee1f642f9614af3100f38315eff8bbece1787e2eb620&o=&hp=1'>
+                      </HotelCard>
                   {/* Card 2: Hotel 2 */}
-                  <div className="border border-black rounded-lg p-4">
-                      <div className="flex justify-center mb-4">
-                          <img src="https://www.hotelgangaazure.com/images/banner/15013_home-page.jpg" alt="Hotel 1" className="w-full h-60 mb-4 object-cover rounded-lg" />
-                      </div>
-                      <h3 className="text-xl font-semibold text-black mb-2">Hotel Ganga Azure</h3>
-                      <p className="text-gray-700 mb-2"> Near Shiv Murti chowk Opp. Railway Station Haridwar</p>
-                      <a href="https://www.goibibo.com/hotels/ganga-azure-hotel-in-haridwar-8581916745583737264/?hquery={%22ci%22:%2220240416%22,%22co%22:%2220240417%22,%22r%22:%221-2-0%22,%22ibp%22:%22%22}&cc=IN&reviewType=gi&vcid=3545728938069300513" className="text-blue-500 h-60 hover:underline">Book Now</a>
-                  </div>
-
-                  <div className="border border-black rounded-lg p-4">
-                      <div className="flex justify-center mb-4">
-                          <img src="https://q-xx.bstatic.com/xdata/images/hotel/max300/504330531.jpg?k=b82195fd5f12a2264093130414a802c07a19ccb31e2a78c94da89a41b685569d&o=&s=512x384" alt="Hotel 1" className="w-full h-60 mb-4 object-cover rounded-lg" />
-                      </div>
-                      <h3 className="text-xl font-semibold text-black mb-2">Hotel Ganga Exotica</h3>
-                      <p className="text-gray-700 mb-2"> Niranjani Akhara Road, near Safe Parking, Mayapur, Haridwar</p>
-                      <a href="https://www.agoda.com/en-in/hotel-ganga-exotica/hotel/haridwar-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1841706&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2024-04-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&tag=461ebe2b-21d1-7ce2-d27e-969cba382470&isCityHaveAsq=false&los=1&searchrequestid=e0687092-b539-4fdb-8560-01bd0087d1bd&ds=QuGIk%2FBbCcjHwuDo" className="text-blue-500 hover:underline">Book Now</a>
-                  </div>
+                  <HotelCard
+                      name='Hotel Ganga Exotica'
+                      address='Niranjani Akhara Road, near Safe Parking, Mayapur, Haridwar'
+                      href='https://www.agoda.com/en-in/hotel-ganga-exotica/hotel/haridwar-in.html?finalPriceView=1&isShowMobileAppPrice=false&cid=1841706&numberOfBedrooms=&familyMode=false&adults=1&children=0&rooms=1&maxRooms=0&checkIn=2024-04-18&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&tag=461ebe2b-21d1-7ce2-d27e-969cba382470&isCityHaveAsq=false&los=1&searchrequestid=e0687092-b539-4fdb-8560-01bd0087d1bd&ds=QuGIk%2FBbCcjHwuDo'
+                      src='data:image/jpeg;base64,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'>
+                  </HotelCard>
+                  <HotelCard
+                      name='Hotel Ganga Azure'
+                      address='Near Shiv Murti chowk Opp. Railway Station Haridwar'
+                      href='https://www.goibibo.com/hotels/ganga-azure-hotel-in-haridwar-8581916745583737264/?hquery={%22ci%22:%2220240416%22,%22co%22:%2220240417%22,%22r%22:%221-2-0%22,%22ibp%22:%22%22}&cc=IN&reviewType=gi&vcid=3545728938069300513'
+                      src='https://q-xx.bstatic.com/xdata/images/hotel/max300/504330531.jpg?k=b82195fd5f12a2264093130414a802c07a19ccb31e2a78c94da89a41b685569d&o=&s=512x384'>
+                  </HotelCard>
+                
 
                   {/* Add more cards for other hotels */}
               </div>
@@ -183,7 +177,7 @@ export default function haridwar() {
                       <h3 className="text-xl font-semibold text-black mb-2">Curry Leaf Haridwar</h3>
                       <p className="text-gray-700 mb-2">Type:  Veg, Italian, South Indian, Chinese, Mexican, Japanese </p>
                       <p className="text-gray-700 mb-2">Address:16, Upper Rd, Haridwar, Uttarakhand, India </p>
-                      <a href="https://www.google.com/maps/dir//16-A,+Ganga+Building,+Harki+Pauri+Haridwar,+249401/@25.5376752,83.1135899,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3991df5c174001d3:0xdcf04a86c7df537e!2m2!1d83.1959914!2d25.5376982?entry=ttu" className="text-blue-500 h-60 hover:underline">View On Map</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//16-A,+Ganga+Building,+Harki+Pauri+Haridwar,+249401/@25.5376752,83.1135899,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3991df5c174001d3:0xdcf04a86c7df537e!2m2!1d83.1959914!2d25.5376982?entry=ttu" className="text-blue-500 h-60 hover:underline">View On Map</a>
                   </div>
 
 
@@ -195,7 +189,7 @@ export default function haridwar() {
                       <h3 className="text-xl font-semibold text-black mb-2">Sai Ganga Bhoj </h3>
                       <p className="text-gray-700 mb-2">Type:  Veg, Italian, South Indian</p>
                       <p className="text-gray-700 mb-2">Address:16, Upper Rd, Haridwar, Uttarakhand, India </p>
-                      <a href="https://www.google.com/maps/dir//shiv+vishram+grah,+Upper+Rd,+near+ganga+takies,+Har+Ki+Pauri,+Haridwar,+Uttarakhand+249401/@29.9550183,78.08641,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39094795ce569861:0xce97a0fed412be5a!2m2!1d78.1688114!2d29.9550439?entry=ttu" className="text-blue-500 h-60 hover:underline">View On Map</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//shiv+vishram+grah,+Upper+Rd,+near+ganga+takies,+Har+Ki+Pauri,+Haridwar,+Uttarakhand+249401/@29.9550183,78.08641,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39094795ce569861:0xce97a0fed412be5a!2m2!1d78.1688114!2d29.9550439?entry=ttu" className="text-blue-500 h-60 hover:underline">View On Map</a>
                   </div>
 
                   <div className="border border-black rounded-lg p-4">
@@ -205,7 +199,7 @@ export default function haridwar() {
                       <h3 className="text-xl font-semibold text-black mb-2">Amber Hotel</h3>
                       <p className="text-gray-700 mb-2">Type:  Veg, Italian, South Indian</p>
                       <p className="text-gray-700 mb-2">Address:16, Upper Rd, Haridwar, Uttarakhand, India </p>
-                      <a href="https://www.google.com/maps?s=web&rlz=1C1CHBD_enIN1025IN1025&sca_esv=eae1723b12d3aedd&sca_upv=1&lqi=CjBnYW5nYSByaXZlcihoYXJpZHdhcikgc3VnZ2VzdCBuZWFyYnkgcmVzdGF1cmFudHNIps3TvfasgIAIWjsQAxAEEAUYAhgFIi9nYW5nYSByaXZlciBoYXJpZHdhciBzdWdnZXN0IG5lYXJieSByZXN0YXVyYW50c5IBCnJlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkhha3hpUVhOUlJSQUKqAXgQASoeIhpzdWdnZXN0IG5lYXJieSByZXN0YXVyYW50cygAMh8QASIbyrI1wyF99ZF3PQWIGYQpzdhXQsvMlpKlr6oQMjMQAiIvZ2FuZ2Egcml2ZXIgaGFyaWR3YXIgc3VnZ2VzdCBuZWFyYnkgcmVzdGF1cmFudHM&phdesc=YIieYjh-KdI&vet=12ahUKEwij-t2dkbOFAxX8RmwGHRE_DzwQ1YkKegQIGxAB..i&cs=0&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=Kav9gS0bRwk5Mcd-jAHHTNql&daddr=Upper+Rd,+Har+Ki+Pauri,+Haridwar,+Uttarakhand+249401" className="text-blue-500 h-60 hover:underline">View On Map</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps?s=web&rlz=1C1CHBD_enIN1025IN1025&sca_esv=eae1723b12d3aedd&sca_upv=1&lqi=CjBnYW5nYSByaXZlcihoYXJpZHdhcikgc3VnZ2VzdCBuZWFyYnkgcmVzdGF1cmFudHNIps3TvfasgIAIWjsQAxAEEAUYAhgFIi9nYW5nYSByaXZlciBoYXJpZHdhciBzdWdnZXN0IG5lYXJieSByZXN0YXVyYW50c5IBCnJlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUkhha3hpUVhOUlJSQUKqAXgQASoeIhpzdWdnZXN0IG5lYXJieSByZXN0YXVyYW50cygAMh8QASIbyrI1wyF99ZF3PQWIGYQpzdhXQsvMlpKlr6oQMjMQAiIvZ2FuZ2Egcml2ZXIgaGFyaWR3YXIgc3VnZ2VzdCBuZWFyYnkgcmVzdGF1cmFudHM&phdesc=YIieYjh-KdI&vet=12ahUKEwij-t2dkbOFAxX8RmwGHRE_DzwQ1YkKegQIGxAB..i&cs=0&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=Kav9gS0bRwk5Mcd-jAHHTNql&daddr=Upper+Rd,+Har+Ki+Pauri,+Haridwar,+Uttarakhand+249401" className="text-blue-500 h-60 hover:underline">View On Map</a>
                   </div>
 
 
