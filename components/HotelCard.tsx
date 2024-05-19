@@ -9,7 +9,7 @@ interface HotelCardProps {
 
 const HotelCard: React.FC<HotelCardProps> = ({ name, address, href, src }) => {
   return (
-      <div className="border border-black rounded-lg p-4">
+      <div className="border card-container border-black rounded-lg p-4">
           <div className="flex justify-center mb-4">
               <img src={src} alt={name} className="w-full h-60 mb-4 object-cover rounded-lg" />
           </div>

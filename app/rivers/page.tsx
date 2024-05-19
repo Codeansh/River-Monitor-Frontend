@@ -12,8 +12,8 @@ export default function rivers() {
 
                   {/* Card 1 */}
                   <div onClick={() => { window.location.href = 'river/ganga/haridwar'; }} style={{ cursor: 'pointer' }} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 px-4 mb-8 ">
-                      <div className="card-container">
-                          <div className="max-w-md mx-auto overflow-hidden shadow-lg rounded-lg border border-gray-400 card">
+                      <div className="card-">
+                          <div className="max-w-md mx-auto overflow-hidden shadow-lg rounded-lg border border-gray-400 card ">
                               <img className="w-full h-48 object-cover" 
                                   src="https://images.unsplash.com/photo-1624807136278-e2973be118ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwcml2ZXJ8ZW58MHx8MHx8fDA%3D" alt="River img" />
                               <div className="p-4">
@@ -127,23 +127,7 @@ export default function rivers() {
 
               </div>
           </div>
-          <div className='fixed bottom-0 w-full'>
-              <svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
-                  <defs>
-                      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                  </defs>
-                  <g className="parallax">
-                      <use xlinkHref="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
-                      <use xlinkHref="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                      <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                      <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
-                  </g>
-              </svg>
-          </div>
-
-          <footer className="fixed bottom-0 w-full bg-green-50 border-gray-200 px-2 sm:px-4 rounded dark:bg-gray-800 text-white text-center py-4">
-              <p>&copy; 2023 River Monitoring Network</p>
-          </footer>
+          
       </>
   )
 }
